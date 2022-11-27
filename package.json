@@ -1,0 +1,27 @@
+{
+  "name": "kallukalator",
+  "version": "1.0.0",
+  "description": "simple calculator",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "kallukalator": "./bin/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.5",
+    "@types/gradient-string": "^1.1.2",
+    "@types/inquirer": "^9.0.3"
+  }
+}
